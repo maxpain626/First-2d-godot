@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://di80dcggjcod3"
+path="res://.godot/imported/2014 07_ Clement Panchout_ Partycles OST_ The Chillout Factory.wav-aacf94b0bcc74427a77458a5eb0bb614.sample"
+
+[deps]
+
+source_file="res://Music/2014 07_ Clement Panchout_ Partycles OST_ The Chillout Factory.wav"
+dest_files=["res://.godot/imported/2014 07_ Clement Panchout_ Partycles OST_ The Chillout Factory.wav-aacf94b0bcc74427a77458a5eb0bb614.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

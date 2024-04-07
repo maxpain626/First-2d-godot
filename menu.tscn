@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjfsum7hn4pgm"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_at3um"]
+[ext_resource type="PackedScene" uid="uid://cuagi7cxxtmxo" path="res://back_ground.tscn" id="2_g2g45"]
+[ext_resource type="AudioStream" uid="uid://bvbfq6i7j21sd" path="res://Music/Clement Panchout _ Journey _ 2017.wav" id="3_ujxyj"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_at3um")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 370.0
+offset_top = 109.0
+offset_right = 760.0
+offset_bottom = 237.0
+theme_override_colors/font_color = Color(0.235294, 0.509804, 0.286275, 1)
+theme_override_font_sizes/font_size = 75
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 365.0
+offset_top = 310.0
+offset_right = 755.0
+offset_bottom = 438.0
+theme_override_colors/font_color = Color(0.235294, 0.509804, 0.286275, 1)
+theme_override_font_sizes/font_size = 75
+text = "Quit"
+
+[node name="BackGround" parent="." instance=ExtResource("2_g2g45")]
+
+[node name="AudioListener2D" type="AudioListener2D" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_ujxyj")
+autoplay = true
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
