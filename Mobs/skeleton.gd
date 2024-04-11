@@ -15,6 +15,9 @@ func _physics_process(delta):
 	if chase == true:
 		velocity.x = direction.x * speed
 		anim.play("Run")
+	else:
+		velocity.x = 0
+		
 	if direction.x < 0:
 		$AnimatedSprite2D.flip_h = true
 	else:
@@ -24,3 +27,8 @@ func _physics_process(delta):
 func _on_detector_body_entered(body):
 	if body.name == "Player":
 		chase = true
+
+func _on_detector_body_exited(body):
+	if body.name == "Player":
+		chase = false
+		anim.play("Idle")

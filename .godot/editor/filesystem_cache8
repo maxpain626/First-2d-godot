@@ -1,16 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1712812395
+::res://::1712817761
 back_ground.gd::GDScript::-1::1711975286::0::1::::<>ParallaxBackground<>::
 back_ground.tscn::PackedScene::6176998513368013108::1712148858::0::1::::<><>::res://back_ground.gd<>uid://c7yi7ayy6fg07::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_1.png<>uid://bem5lee3ldveu::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_2.png<>uid://5sevc46uu3ls::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_3.png
 Button_menu.gd::GDScript::-1::1711776198::0::1::::<>Button<>::
 icon.svg::CompressedTexture2D::1459055150433042486::1711774162::1711774172::1::::<><>::
-level_1.tscn::PackedScene::409685879352704200::1712473812::0::1::::<><>::uid://b2iyfc20h68n2::::res://Player/player.tscn<>uid://c7yi7ayy6fg07::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_1.png<>uid://bem5lee3ldveu::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_2.png<>uid://5sevc46uu3ls::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_3.png<>uid://bec86fhm4syv4::::res://Sprites/Locations/oak_woods_v1.0/oak_woods_tileset.png<>uid://bnv5r6etpjti::::res://Mobs/skeleton.tscn
+level_1.tscn::PackedScene::409685879352704200::1712812427::0::1::::<><>::uid://b2iyfc20h68n2::::res://Player/player.tscn<>uid://c7yi7ayy6fg07::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_1.png<>uid://bem5lee3ldveu::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_2.png<>uid://5sevc46uu3ls::::res://Sprites/Locations/oak_woods_v1.0/background/background_layer_3.png<>uid://bec86fhm4syv4::::res://Sprites/Locations/oak_woods_v1.0/oak_woods_tileset.png<>uid://bnv5r6etpjti::::res://Mobs/skeleton.tscn
 menu.gd::GDScript::-1::1711976442::0::1::::<>Node2D<>::
-menu.tscn::PackedScene::3029571467004106412::1712473810::0::1::::<><>::res://menu.gd<>uid://cuagi7cxxtmxo::::res://back_ground.tscn<>uid://bvbfq6i7j21sd::::res://Music/Clement Panchout _ Journey _ 2017.wav
-::res://Mobs/::1712812317
+menu.tscn::PackedScene::3029571467004106412::1712812406::0::1::::<><>::res://menu.gd<>uid://cuagi7cxxtmxo::::res://back_ground.tscn<>uid://bvbfq6i7j21sd::::res://Music/Clement Panchout _ Journey _ 2017.wav
+::res://Mobs/::1712812406
 Skeleton enemy.png::CompressedTexture2D::8549554075536816108::1712149244::1712149254::1::::<><>::
 skeleton.gd::GDScript::-1::1712299118::0::1::::<>CharacterBody2D<>::
-skeleton.tscn::PackedScene::98355326099674138::1712473812::0::1::::<><>::res://Mobs/skeleton.gd<>uid://dt2p5262plnge::::res://Mobs/Skeleton enemy.png
+skeleton.tscn::PackedScene::98355326099674138::1712812406::0::1::::<><>::res://Mobs/skeleton.gd<>uid://dt2p5262plnge::::res://Mobs/Skeleton enemy.png
 ::res://Music/::1712812280
 2014 07_ Clement Panchout_ Partycles OST_ Cheerful Title Screen.wav::AudioStreamWAV::2057348148548674445::1711973598::1711976858::1::::<><>::
 2014 07_ Clement Panchout_ Partycles OST_ The Chillout Factory.wav::AudioStreamWAV::7790420662868672410::1711973598::1711976858::1::::<><>::
@@ -34,9 +34,9 @@ Clement Panchout_ Village_ 2002.wav::AudioStreamWAV::5619359604416916452::171197
 Modern _ Eastern _ Arabian Princess _ Clement Panchout 2019.wav::AudioStreamWAV::6597431744692447277::1711973642::1711976862::1::::<><>::
 Retro_ Spooky Soundscape_ The Whispering Shadows Dungeon _Clement Panchout 2016.wav::AudioStreamWAV::5445887998137754096::1711973644::1711976862::1::::<><>::
 Time Flies _Clement Panchout _2016.wav::AudioStreamWAV::8928363460629945329::1711973644::1711976860::1::::<><>::
-::res://Player/::1712812280
+::res://Player/::1712812406
 player.gd::GDScript::-1::1712148834::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::4299500768651289761::1712473812::0::1::::<><>::res://Player/player.gd<>uid://bb450hcj388bm::::res://Sprites/Locations/oak_woods_v1.0/character/char_blue.png
+player.tscn::PackedScene::4299500768651289761::1712812406::0::1::::<><>::res://Player/player.gd<>uid://bb450hcj388bm::::res://Sprites/Locations/oak_woods_v1.0/character/char_blue.png
 ::res://Sprites/::1712812280
 ::res://Sprites/Character/::1711974240
 ::res://Sprites/Enemies/::1712812280
